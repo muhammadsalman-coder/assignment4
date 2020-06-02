@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@700&display=swap');
+	
+	.list-inline li{
+		display: inline-block;
+		display: flex;
+	}
+	footer{
+		background-color: #282C2FFF;
+	}
+
+	/*.container{
+		min-height: 300px;
+		margin-left: 80px ;
+		}*/
+	.contacticon li i{
+		width: 45px;
+		height: 45px;
+		background-color: #33383BFF;
+		display: inline;
+		margin: 5px 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: #e9ecef;
+		border-radius: 100%;	 
+	}
+
+	.contacticon li span{
+		font-family: 'Open Sans', sans-serif;
+		letter-spacing: 1px;
+		font-size: 16px;
+		color: #e9ecef;
+	}
+	/*For Left Right Footer Margin start*/
+	@media (min-width: 768px){
+		.col-md-4 {
+			left: -35px;
+		}
+		.col-md-8{
+			left: 40px;
+		}
+	}
+	/*For Left Right Footer Margin End*/
+
+
+	.contacticon li{
+		align-items: center;
+	}
+	.fa-phone{
+		font-size: 25px;
+	}
+	.fa-envelope{
+		font-size: 20px;
+	}
+	.fa-map-marker{
+		font-size: 30px;
+	}
+	.aboutfooter{
+		right: 500px;
+	}
+
+	.aboutfooter h4{
+		color:#e9ecef;
+		align-items: center;
+		justify-content: ;
+	}
+	.aboutfooter p{
+		color:#adb5bd;
+		align-items: center;
+		justify-content: ;
+	}
+	.abouticon{
+		display: inline;
+
+	}
+	/*.abouticon li{
+		list-style: none;
+		display: inline;
+		color:#e9ecef;
+
+	}*/
+	.abouticon li i{
+		width: 40px;
+		height: 40px;
+		background-color: #33383BFF;
+		display: inline;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		color: #e9ecef;
+		border-radius: 10px;	 
+	}
+	.abouticon li {
+		display: inline-block;
+	}
+	.abouticon li i:hover{
+		background-color: #fff;
+		color: #000;
+		
+	}
+	.abouticon a{
+		text-decoration: none;
+	}
+
+/* Copy Right Footer */
+	.footer-copyright {	background: #222;	padding: 5px 0;}
+	.footer-copyright .logo {    display: inherit;}
+	.footer-copyright nav {    float: right;    margin-top: 5px;}
+	.footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
+	.footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
+	.footer-copyright nav ul li a{	color: #969696;}
+	.footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
+	.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
